@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 import tensorflow as tf
-
+#kaisa hai bhai, merge kar le
 dataframe = pd.read_csv("data.csv")
 dataframe = dataframe.drop(["index", "price", "sq_price"], axis=1)
 dataframe = dataframe[0:10]
