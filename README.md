@@ -21,7 +21,7 @@ This results in 16 new images, one for each filter in the convolutional layer.Th
 
 These are then flattened to a single vector of length 7 x 7 x 36 = 1764, which is used as the input to a fully-connected layer with 128 neurons (or elements). This feeds into another fully-connected layer with 10 neurons, one for each of the classes, which is used to determine the class of the image.
 
-The computation in TensorFlow is actually done on a batch of images instead of a single image, which makes the computation more efficient. This means the flowchart actually has one more data-dimension when implemented in TensorFlow.
+
 
 ## The MNIST dataset
 
